@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "kTO///OK09zU2xqVTYvjHl3n3L3inUO9X9UmUj9w4Apzhm/DCFG7V3v/MxgRSmfXTQxZdSHLeOtDmyr9DCmFiw==",
+  "dgSpecHash": "bnYBdmJdoEgWnztcf+AwfTXLV2A4rV5+LduAOQELmJZEEOXhCV3QMQPo46uUc0WAaaJ6V2vwu6VfVA8zZCOS8w==",
   "success": true,
   "projectFilePath": "E:\\Tu-Hoc\\React-js\\Code\\T3H\\T3H-Project\\Server\\ReactChat\\ReactChat.Infrastructure\\ReactChat.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\phamb\\.nuget\\packages\\mongodb.bson\\2.11.1\\mongodb.bson.2.11.1.nupkg.sha512"
+  ],
   "logs": []
 }

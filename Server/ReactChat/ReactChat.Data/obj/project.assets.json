@@ -1402,6 +1402,19 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "ReactChat.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MongoDB.Bson": "2.11.1"
+        },
+        "compile": {
+          "bin/placeholder/ReactChat.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReactChat.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -5000,6 +5013,11 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "ReactChat.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../ReactChat.Infrastructure/ReactChat.Infrastructure.csproj",
+      "msbuildProject": "../ReactChat.Infrastructure/ReactChat.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5008,7 +5026,8 @@
       "Microsoft.Extensions.Configuration.Abstractions >= 3.1.7",
       "Microsoft.Extensions.Configuration.FileExtensions >= 3.1.7",
       "Microsoft.Extensions.Configuration.Json >= 3.1.7",
-      "MongoDB.Driver >= 2.11.1"
+      "MongoDB.Driver >= 2.11.1",
+      "ReactChat.Infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5040,7 +5059,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Tu-Hoc\\React-js\\Code\\T3H\\T3H-Project\\Server\\ReactChat\\ReactChat.Infrastructure\\ReactChat.Infrastructure.csproj": {
+              "projectPath": "E:\\Tu-Hoc\\React-js\\Code\\T3H\\T3H-Project\\Server\\ReactChat\\ReactChat.Infrastructure\\ReactChat.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -4,4 +4,13 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.11.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReactChat.Data\ReactChat.Data.csproj" />
+    <ProjectReference Include="..\ReactChat.Infrastructure\ReactChat.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
