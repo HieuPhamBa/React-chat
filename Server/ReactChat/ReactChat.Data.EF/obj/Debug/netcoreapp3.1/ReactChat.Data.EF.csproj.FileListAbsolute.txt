@@ -3,3 +3,12 @@ E:\Tu-Hoc\React-js\Code\T3H\T3H-Project\Server\ReactChat\ReactChat.Data.EF\bin\D
 E:\Tu-Hoc\React-js\Code\T3H\T3H-Project\Server\ReactChat\ReactChat.Data.EF\obj\Debug\netcoreapp3.1\ReactChat.Data.EF.csprojAssemblyReference.cache
 E:\Tu-Hoc\React-js\Code\T3H\T3H-Project\Server\ReactChat\ReactChat.Data.EF\obj\Debug\netcoreapp3.1\ReactChat.Data.EF.AssemblyInfoInputs.cache
 E:\Tu-Hoc\React-js\Code\T3H\T3H-Project\Server\ReactChat\ReactChat.Data.EF\obj\Debug\netcoreapp3.1\ReactChat.Data.EF.AssemblyInfo.cs
+E:\Tu-Hoc\React-js\Code\T3H\T3H-Project\Server\ReactChat\ReactChat.Data.EF\bin\Debug\netcoreapp3.1\ReactChat.Data.EF.pdb
+E:\Tu-Hoc\React-js\Code\T3H\T3H-Project\Server\ReactChat\ReactChat.Data.EF\bin\Debug\netcoreapp3.1\ReactChat.Data.dll
+E:\Tu-Hoc\React-js\Code\T3H\T3H-Project\Server\ReactChat\ReactChat.Data.EF\bin\Debug\netcoreapp3.1\ReactChat.Infrastructure.dll
+E:\Tu-Hoc\React-js\Code\T3H\T3H-Project\Server\ReactChat\ReactChat.Data.EF\bin\Debug\netcoreapp3.1\ReactChat.Data.pdb
+E:\Tu-Hoc\React-js\Code\T3H\T3H-Project\Server\ReactChat\ReactChat.Data.EF\bin\Debug\netcoreapp3.1\ReactChat.Infrastructure.pdb
+E:\Tu-Hoc\React-js\Code\T3H\T3H-Project\Server\ReactChat\ReactChat.Data.EF\obj\Debug\netcoreapp3.1\ReactChat.Data.EF.csproj.CopyComplete
+E:\Tu-Hoc\React-js\Code\T3H\T3H-Project\Server\ReactChat\ReactChat.Data.EF\obj\Debug\netcoreapp3.1\ReactChat.Data.EF.dll
+E:\Tu-Hoc\React-js\Code\T3H\T3H-Project\Server\ReactChat\ReactChat.Data.EF\obj\Debug\netcoreapp3.1\ReactChat.Data.EF.pdb
+E:\Tu-Hoc\React-js\Code\T3H\T3H-Project\Server\ReactChat\ReactChat.Data.EF\obj\Debug\netcoreapp3.1\ReactChat.Data.EF.csproj.CoreCompileInputs.cache

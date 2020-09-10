@@ -1,0 +1,9 @@
+E:\Tu-Hoc\React-js\Code\T3H\T3H-Project\Server\ReactChat\ReactChat.Application\bin\Debug\netcoreapp3.1\ReactChat.Application.deps.json
+E:\Tu-Hoc\React-js\Code\T3H\T3H-Project\Server\ReactChat\ReactChat.Application\bin\Debug\netcoreapp3.1\ReactChat.Application.dll
+E:\Tu-Hoc\React-js\Code\T3H\T3H-Project\Server\ReactChat\ReactChat.Application\bin\Debug\netcoreapp3.1\ReactChat.Application.pdb
+E:\Tu-Hoc\React-js\Code\T3H\T3H-Project\Server\ReactChat\ReactChat.Application\obj\Debug\netcoreapp3.1\ReactChat.Application.AssemblyInfoInputs.cache
+E:\Tu-Hoc\React-js\Code\T3H\T3H-Project\Server\ReactChat\ReactChat.Application\obj\Debug\netcoreapp3.1\ReactChat.Application.AssemblyInfo.cs
+E:\Tu-Hoc\React-js\Code\T3H\T3H-Project\Server\ReactChat\ReactChat.Application\obj\Debug\netcoreapp3.1\ReactChat.Application.dll
+E:\Tu-Hoc\React-js\Code\T3H\T3H-Project\Server\ReactChat\ReactChat.Application\obj\Debug\netcoreapp3.1\ReactChat.Application.pdb
+E:\Tu-Hoc\React-js\Code\T3H\T3H-Project\Server\ReactChat\ReactChat.Application\obj\Debug\netcoreapp3.1\ReactChat.Application.csproj.CoreCompileInputs.cache
+E:\Tu-Hoc\React-js\Code\T3H\T3H-Project\Server\ReactChat\ReactChat.Application\obj\Debug\netcoreapp3.1\ReactChat.Application.csprojAssemblyReference.cache

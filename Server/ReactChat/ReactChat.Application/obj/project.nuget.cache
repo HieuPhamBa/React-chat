@@ -1,8 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "+/nFMa+tIFlMnYgPBaf5naFJ2Nw14GA2WFGVseE6sWH2SExkBSJVrvqrPo5eD8MPrXZii5GRWUI3oDQkCg/6IQ==",
+  "dgSpecHash": "2enpNBIgE8Wl3kx1e3xA6+9XFbQ13JJTF11RCQJxwxnNZRmmzKvAFlODbxZdkfRp4WgfAgu3YFhzXE7c5PCTRQ==",
   "success": true,
   "projectFilePath": "E:\\Tu-Hoc\\React-js\\Code\\T3H\\T3H-Project\\Server\\ReactChat\\ReactChat.Application\\ReactChat.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\phamb\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
+    "C:\\Users\\phamb\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\phamb\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
+    "C:\\Users\\phamb\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
+    "C:\\Users\\phamb\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.1.0\\microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
+    "C:\\Users\\phamb\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.1.0\\microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
+    "C:\\Users\\phamb\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "C:\\Users\\phamb\\.nuget\\packages\\microsoft.netcore.targets\\2.1.0\\microsoft.netcore.targets.2.1.0.nupkg.sha512",
+    "C:\\Users\\phamb\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\phamb\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

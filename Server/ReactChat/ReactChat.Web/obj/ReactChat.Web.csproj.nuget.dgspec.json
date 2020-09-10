@@ -21,14 +21,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "netcoreapp2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "netcoreapp2.1": {
             "projectReferences": {
               "E:\\Tu-Hoc\\React-js\\Code\\T3H\\T3H-Project\\Server\\ReactChat\\ReactChat.Infrastructure\\ReactChat.Infrastructure.csproj": {
                 "projectPath": "E:\\Tu-Hoc\\React-js\\Code\\T3H\\T3H-Project\\Server\\ReactChat\\ReactChat.Infrastructure\\ReactChat.Infrastructure.csproj"
@@ -43,8 +43,12 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "netcoreapp2.1": {
           "dependencies": {
+            "AspNetCore.Identity.Mongo": {
+              "target": "Package",
+              "version": "[2.5.1, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[3.1.7, )"
@@ -61,6 +65,12 @@
               "target": "Package",
               "version": "[3.1.7, )"
             },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.11.1, )"
@@ -76,11 +86,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
         }
       }
@@ -102,14 +107,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "netcoreapp2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "netcoreapp2.1": {
             "projectReferences": {}
           }
         },
@@ -120,8 +125,14 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "netcoreapp2.1": {
           "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
             "MongoDB.Bson": {
               "target": "Package",
               "version": "[2.11.1, )"
@@ -137,11 +148,72 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Tu-Hoc\\React-js\\Code\\T3H\\T3H-Project\\Server\\ReactChat\\ReactChat.Utilities\\ReactChat.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Tu-Hoc\\React-js\\Code\\T3H\\T3H-Project\\Server\\ReactChat\\ReactChat.Utilities\\ReactChat.Utilities.csproj",
+        "projectName": "ReactChat.Utilities",
+        "projectPath": "E:\\Tu-Hoc\\React-js\\Code\\T3H\\T3H-Project\\Server\\ReactChat\\ReactChat.Utilities\\ReactChat.Utilities.csproj",
+        "packagesPath": "C:\\Users\\phamb\\.nuget\\packages\\",
+        "outputPath": "E:\\Tu-Hoc\\React-js\\Code\\T3H\\T3H-Project\\Server\\ReactChat\\ReactChat.Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\phamb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "E:\\Tu-Hoc\\React-js\\Code\\T3H\\T3H-Project\\Server\\ReactChat\\ReactChat.Data\\ReactChat.Data.csproj": {
+                "projectPath": "E:\\Tu-Hoc\\React-js\\Code\\T3H\\T3H-Project\\Server\\ReactChat\\ReactChat.Data\\ReactChat.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
             "Microsoft.NETCore.App": {
-              "privateAssets": "all"
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.7.1, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
         }
       }
@@ -163,17 +235,20 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "netcoreapp2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "netcoreapp2.1": {
             "projectReferences": {
               "E:\\Tu-Hoc\\React-js\\Code\\T3H\\T3H-Project\\Server\\ReactChat\\ReactChat.Data\\ReactChat.Data.csproj": {
                 "projectPath": "E:\\Tu-Hoc\\React-js\\Code\\T3H\\T3H-Project\\Server\\ReactChat\\ReactChat.Data\\ReactChat.Data.csproj"
+              },
+              "E:\\Tu-Hoc\\React-js\\Code\\T3H\\T3H-Project\\Server\\ReactChat\\ReactChat.Utilities\\ReactChat.Utilities.csproj": {
+                "projectPath": "E:\\Tu-Hoc\\React-js\\Code\\T3H\\T3H-Project\\Server\\ReactChat\\ReactChat.Utilities\\ReactChat.Utilities.csproj"
               }
             }
           }
@@ -185,11 +260,28 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "netcoreapp2.1": {
           "dependencies": {
-            "MongoDB.Driver": {
+            "AspNetCore.Identity.Mongo": {
               "target": "Package",
-              "version": "[2.11.1, )"
+              "version": "[2.5.1, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
             }
           },
           "imports": [
@@ -202,14 +294,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
         }
       }

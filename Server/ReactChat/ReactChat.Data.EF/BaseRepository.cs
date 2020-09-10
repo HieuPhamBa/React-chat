@@ -12,7 +12,7 @@ namespace ReactChat.Data.EF
         protected readonly IMongoDatabase Database;
         protected readonly IMongoCollection<TEntity> DbSet;
 
-        protected BaseRepository(IMongoContext context)
+        protected BaseRepository(MongoContext context)
         {
             Database = context.Database;
             DbSet = Database.GetCollection<TEntity>(typeof(TEntity).Name);

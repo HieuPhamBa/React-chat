@@ -7,12 +7,9 @@ using System.Text;
 
 namespace ReactChat.Data
 {
-    public interface IMongoContext
-    {
-        IMongoDatabase Database { get; }
-    }
+   
 
-    public abstract class MongoContext : IMongoContext
+    public abstract class MongoContext 
     {
         protected MongoContext(IMongoDBSettings connectionSetting)
         {

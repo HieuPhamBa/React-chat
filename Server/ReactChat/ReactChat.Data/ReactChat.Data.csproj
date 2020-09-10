@@ -1,10 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AspNetCore.Identity.Mongo" Version="2.5.1" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.7" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="3.1.7" />
     <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="3.1.7" />
@@ -13,11 +14,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Enities\" />
+    <ProjectReference Include="..\ReactChat.Infrastructure\ReactChat.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ReactChat.Infrastructure\ReactChat.Infrastructure.csproj" />
+    <Folder Include="Enities\" />
   </ItemGroup>
 
 </Project>

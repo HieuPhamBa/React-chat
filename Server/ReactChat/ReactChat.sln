@@ -11,17 +11,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Appl
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{546E2592-F747-4CA5-A251-AEF1A6DC5B49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactChat.Web", "ReactChat.Web\ReactChat.Web.csproj", "{187945DC-E1F8-4142-978C-3575AD44E6A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactChat.Application", "ReactChat.Application\ReactChat.Application.csproj", "{FFC9D404-1A08-4A3B-A8DA-B0321BCDFF1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactChat.Application", "ReactChat.Application\ReactChat.Application.csproj", "{FFC9D404-1A08-4A3B-A8DA-B0321BCDFF1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactChat.Data", "ReactChat.Data\ReactChat.Data.csproj", "{C8D1469D-2691-41D9-8FDC-E03F1DE8C092}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactChat.Data", "ReactChat.Data\ReactChat.Data.csproj", "{C8D1469D-2691-41D9-8FDC-E03F1DE8C092}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactChat.Data.EF", "ReactChat.Data.EF\ReactChat.Data.EF.csproj", "{99505A30-F867-402B-8228-B5EC8F36313E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactChat.Data.EF", "ReactChat.Data.EF\ReactChat.Data.EF.csproj", "{99505A30-F867-402B-8228-B5EC8F36313E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactChat.Infrastructure", "ReactChat.Infrastructure\ReactChat.Infrastructure.csproj", "{54AD6867-B481-4022-8E5E-6956A2068798}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactChat.Infrastructure", "ReactChat.Infrastructure\ReactChat.Infrastructure.csproj", "{54AD6867-B481-4022-8E5E-6956A2068798}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactChat.Utilities", "ReactChat.Utilities\ReactChat.Utilities.csproj", "{256015D3-0BFD-4F7D-BD36-2022C9C79DE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactChat.Utilities", "ReactChat.Utilities\ReactChat.Utilities.csproj", "{256015D3-0BFD-4F7D-BD36-2022C9C79DE2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactChat.Web", "ReactChat.Web\ReactChat.Web.csproj", "{DB88AB04-2DC3-407A-88C3-4B421901FA64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{187945DC-E1F8-4142-978C-3575AD44E6A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{187945DC-E1F8-4142-978C-3575AD44E6A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{187945DC-E1F8-4142-978C-3575AD44E6A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{187945DC-E1F8-4142-978C-3575AD44E6A2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FFC9D404-1A08-4A3B-A8DA-B0321BCDFF1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FFC9D404-1A08-4A3B-A8DA-B0321BCDFF1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFC9D404-1A08-4A3B-A8DA-B0321BCDFF1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -53,17 +49,21 @@ Global
 		{256015D3-0BFD-4F7D-BD36-2022C9C79DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{256015D3-0BFD-4F7D-BD36-2022C9C79DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{256015D3-0BFD-4F7D-BD36-2022C9C79DE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB88AB04-2DC3-407A-88C3-4B421901FA64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB88AB04-2DC3-407A-88C3-4B421901FA64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB88AB04-2DC3-407A-88C3-4B421901FA64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB88AB04-2DC3-407A-88C3-4B421901FA64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{187945DC-E1F8-4142-978C-3575AD44E6A2} = {AC9F61F7-DBC2-4561-98BA-C3B8E812E6C0}
 		{FFC9D404-1A08-4A3B-A8DA-B0321BCDFF1B} = {BBF94EA0-8223-4867-AE6B-7BF079417D20}
 		{C8D1469D-2691-41D9-8FDC-E03F1DE8C092} = {BADAB4EF-7963-4FD9-A2B5-83E4003B19FC}
 		{99505A30-F867-402B-8228-B5EC8F36313E} = {BADAB4EF-7963-4FD9-A2B5-83E4003B19FC}
 		{54AD6867-B481-4022-8E5E-6956A2068798} = {546E2592-F747-4CA5-A251-AEF1A6DC5B49}
 		{256015D3-0BFD-4F7D-BD36-2022C9C79DE2} = {546E2592-F747-4CA5-A251-AEF1A6DC5B49}
+		{DB88AB04-2DC3-407A-88C3-4B421901FA64} = {AC9F61F7-DBC2-4561-98BA-C3B8E812E6C0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B33672A6-DD5D-4138-A270-73BCEF27F389}

@@ -7,19 +7,29 @@ namespace ReactChat.Data
 {
     public class EFUnitOfWork : IUnitOfWork
     {
-        private readonly IMongoContext _context;
-        public EFUnitOfWork(IMongoContext context)
+        private readonly MongoContext _context;
+        public EFUnitOfWork(MongoContext context)
         {
             _context = context;
         }
+
         public void Commit()
         {
-            _context.SaveChanges();
+            throw new NotImplementedException();
         }
 
         public void Dispose()
         {
-            _context.Dispose();
+            throw new NotImplementedException();
         }
+        //public void Commit()
+        //{
+        //    _context.SaveChanges();
+        //}
+
+        //public void Dispose()
+        //{
+        //    _context.Dispose();
+        //}
     }
 }
